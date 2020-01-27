@@ -78,7 +78,6 @@ If you run into problems see the [Troubleshooting](#Troubleshooting) below and l
 * There is also a useful [Spellchecker](https://github.com/ijmbarr/jupyterlab_spellchecker) extension.
   *  To install run: `jupyter labextension install @ijmbarr/jupyterlab_spellchecker`
 
-* To install both of the above in one command run: `jupyter labextension install @jupyterlab/toc @ijmbarr/jupyterlab_spellchecker`
 ​
 # Troubleshooting
 
@@ -91,7 +90,7 @@ if sys.platform == 'win32':
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 ```
 
-* You may run into issues where pip is using a different python than Jupyter Lab is running. E.g., you may install a package but then Jupyter complains it is unavailable. In that case, instead of `pip install` try running `python -m pip install`.
+* You may run into issues where pip is using a different python than Jupyter Lab is running. E.g., you may install a package but then Jupyter complains it is unavailable. In that case, instead of `pip install` try running `python -m pip install`. Additionally, check if python is from the same environment as pip using `which pip` or `which pip3` and `which python`.
 
 * You may have trouble using Python and Jupyter Lab with the [Anaconda Distribution](https://www.anaconda.com/distribution/). In that case, one fix is to uninstall Anaconda completely and install basic [Python](https://www.python.org/downloads/).
 
