@@ -2,6 +2,6 @@ altair==3.1.0
 vega_datasets
 altair-data-server==0.2.0
 jupyterlab==1.1.2
-numpy==1.16.4
+numpy==1.22.0
 pandas==0.25.0
 scipy==1.3.0
